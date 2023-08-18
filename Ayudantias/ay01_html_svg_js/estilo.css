@@ -1,0 +1,27 @@
+body {
+    /* background-color: rosybrown; */
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#identificador {
+    color: red;
+}
+
+#importante {
+    color: red;
+}
+
+.clase_azul {
+    color: blue;
+}
+
+.clase_verde {
+    color: green;
+}
+
+.titulos {
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: cursive;
+}

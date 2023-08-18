@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Este es un comentario en HTML -->
+  <title>Ayudantía 1</title>
+
+  <!-- Usamos tag <style> para tener una sección para CSS en el mismo HTML.
+  Esto se llama "Internal CSS". No recomendamos mucho esto 
+  porque no nos permite separar bien lo que es HTML y CSS 
+  en diferentes archivos  
+  -->
+
+  <!-- <style>
+    /* Este es un comentario en CSS */
+    .titulos {
+      margin-left: 50px;
+      color: magenta;
+    }
+  </style> -->
+
+  <!-- Tambien podemos importar un archivo CSS.
+  Esto se llama external CSS y es lo recomendado para tener un buen orden -->
+  <link href="estilo.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <p class="titulos">Ejemplo integrando todo</p>
+  <p>Este es un párrafo :D</p>
+  <p style="text-decoration: underline; color: black">
+    Este otro párrafo tiene CSS en el mismo elemento HTML para estar subrayado.<br> Esto se llama "Inline CSS" y tampoco
+    lo recomendamos porque es lo mismo que el "Internal CSS"</p>
+  <p id="importante">
+    Para saber más de CSS, visitar este <a href="https://www.w3schools.com/css/css_howto.asp">link</a>
+  </p>
+  <p class="clase_azul">Parrafo de clase azul</p>
+  <p class="clase_verde">Parrafo de clase verde</p>
+
+  <h2>Mini actividad</h2>
+  <p>Esta es una lista:
+  <ol>
+    <li>Cambiar el estilo del font de este elemento (bold o italic)</li>
+    <li>Cambiar el color de este elemento</li>
+    <li>Cambiar el tamaño de todos los elementos de la lista</li>
+  </ol>
+  </p>
+
+  <!-- <img src="dinosaurio.svg"></img> -->
+
+  <!-- <script src='introjs.js' charset='utf-8'></script> -->
+</body>
+
+</html>
