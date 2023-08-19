@@ -4,10 +4,6 @@ body {
     font-size: 20px;
 }
 
-#identificador {
-    color: red;
-}
-
 #importante {
     color: red;
 }
@@ -24,4 +20,16 @@ body {
     text-decoration: underline;
     font-size: 40px;
     font-family: cursive;
+}
+
+#elemento1 {
+    font-weight: bold;
+}
+
+#elemento2 {
+    color: orange;
+}
+
+.lista {
+    font-size: 10px;
 }
