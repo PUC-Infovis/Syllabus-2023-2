@@ -16,7 +16,13 @@ function joinDeDatos(datos) {
     .join("rect")
     .attr("fill", "orange")
     .attr("width", 40)
-    .attr("height", (d) => d.frecuencia)
+    .attr("height", (d, i, all) => {
+      console.log("Hola, estoy ejecutando esta función")
+      console.log("Dato: ", d)
+      console.log("Indice: ", i)
+      console.log("Todos los elementos visuales: ", all)
+      return d.frecuencia
+    })
     .attr("x", (d, i) => 50 + (i * 100));
 
   /*  Recordar JS Avanzado
