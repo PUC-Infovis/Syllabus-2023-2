@@ -1,0 +1,602 @@
+[
+    {
+        "index": "0",
+        "rank": "1",
+        "repo_name": "PayloadsAllTheThings",
+        "stars": "49975"
+    },
+    {
+        "index": "1",
+        "rank": "2",
+        "repo_name": "face_recognition",
+        "stars": "49072"
+    },
+    {
+        "index": "2",
+        "rank": "3",
+        "repo_name": "localstack",
+        "stars": "48113"
+    },
+    {
+        "index": "3",
+        "rank": "4",
+        "repo_name": "gpt4free",
+        "stars": "44160"
+    },
+    {
+        "index": "4",
+        "rank": "5",
+        "repo_name": "cheat.sh",
+        "stars": "35820"
+    },
+    {
+        "index": "5",
+        "rank": "6",
+        "repo_name": "ChatGLM-6B",
+        "stars": "33475"
+    },
+    {
+        "index": "6",
+        "rank": "7",
+        "repo_name": "cli",
+        "stars": "28886"
+    },
+    {
+        "index": "7",
+        "rank": "8",
+        "repo_name": "redash",
+        "stars": "23701"
+    },
+    {
+        "index": "8",
+        "rank": "9",
+        "repo_name": "llama_index",
+        "stars": "20284"
+    },
+    {
+        "index": "9",
+        "rank": "10",
+        "repo_name": "proxy_pool",
+        "stars": "18587"
+    },
+    {
+        "index": "10",
+        "rank": "11",
+        "repo_name": "babyagi",
+        "stars": "16677"
+    },
+    {
+        "index": "11",
+        "rank": "12",
+        "repo_name": "faker",
+        "stars": "16150"
+    },
+    {
+        "index": "12",
+        "rank": "13",
+        "repo_name": "learn-python",
+        "stars": "14993"
+    },
+    {
+        "index": "13",
+        "rank": "14",
+        "repo_name": "TTS",
+        "stars": "14252"
+    },
+    {
+        "index": "14",
+        "rank": "15",
+        "repo_name": "pyecharts",
+        "stars": "13805"
+    },
+    {
+        "index": "15",
+        "rank": "16",
+        "repo_name": "speedtest-cli",
+        "stars": "12908"
+    },
+    {
+        "index": "16",
+        "rank": "17",
+        "repo_name": "XSStrike",
+        "stars": "11886"
+    },
+    {
+        "index": "17",
+        "rank": "18",
+        "repo_name": "pyright",
+        "stars": "10735"
+    },
+    {
+        "index": "18",
+        "rank": "19",
+        "repo_name": "spiderfoot",
+        "stars": "10164"
+    },
+    {
+        "index": "19",
+        "rank": "20",
+        "repo_name": "q",
+        "stars": "9923"
+    },
+    {
+        "index": "20",
+        "rank": "21",
+        "repo_name": "Theano",
+        "stars": "9774"
+    },
+    {
+        "index": "21",
+        "rank": "51",
+        "repo_name": "bpytop",
+        "stars": "9487"
+    },
+    {
+        "index": "22",
+        "rank": "52",
+        "repo_name": "playwright-python",
+        "stars": "9192"
+    },
+    {
+        "index": "23",
+        "rank": "53",
+        "repo_name": "pytube",
+        "stars": "9096"
+    },
+    {
+        "index": "24",
+        "rank": "22",
+        "repo_name": "theHarvester",
+        "stars": "9005"
+    },
+    {
+        "index": "25",
+        "rank": "54",
+        "repo_name": "mlcourse.ai",
+        "stars": "8970"
+    },
+    {
+        "index": "26",
+        "rank": "55",
+        "repo_name": "sshuttle",
+        "stars": "8924"
+    },
+    {
+        "index": "27",
+        "rank": "56",
+        "repo_name": "30-seconds-of-python",
+        "stars": "8805"
+    },
+    {
+        "index": "28",
+        "rank": "23",
+        "repo_name": "pretrained-models.pytorch",
+        "stars": "8800"
+    },
+    {
+        "index": "29",
+        "rank": "57",
+        "repo_name": "http-prompt",
+        "stars": "8761"
+    },
+    {
+        "index": "30",
+        "rank": "24",
+        "repo_name": "ffmpeg-python",
+        "stars": "8616"
+    },
+    {
+        "index": "31",
+        "rank": "58",
+        "repo_name": "pattern",
+        "stars": "8533"
+    },
+    {
+        "index": "32",
+        "rank": "59",
+        "repo_name": "prowler",
+        "stars": "8483"
+    },
+    {
+        "index": "33",
+        "rank": "60",
+        "repo_name": "pyautogui",
+        "stars": "8479"
+    },
+    {
+        "index": "34",
+        "rank": "61",
+        "repo_name": "byob",
+        "stars": "8413"
+    },
+    {
+        "index": "35",
+        "rank": "25",
+        "repo_name": "flasky",
+        "stars": "8244"
+    },
+    {
+        "index": "36",
+        "rank": "62",
+        "repo_name": "pandas-ai",
+        "stars": "8240"
+    },
+    {
+        "index": "37",
+        "rank": "63",
+        "repo_name": "bottle",
+        "stars": "8051"
+    },
+    {
+        "index": "38",
+        "rank": "64",
+        "repo_name": "elastalert",
+        "stars": "7925"
+    },
+    {
+        "index": "39",
+        "rank": "65",
+        "repo_name": "iOS-DeviceSupport",
+        "stars": "7897"
+    },
+    {
+        "index": "40",
+        "rank": "66",
+        "repo_name": "paperless",
+        "stars": "7781"
+    },
+    {
+        "index": "41",
+        "rank": "26",
+        "repo_name": "mopidy",
+        "stars": "7757"
+    },
+    {
+        "index": "42",
+        "rank": "67",
+        "repo_name": "pysheeet",
+        "stars": "7724"
+    },
+    {
+        "index": "43",
+        "rank": "68",
+        "repo_name": "tensorboardX",
+        "stars": "7663"
+    },
+    {
+        "index": "44",
+        "rank": "27",
+        "repo_name": "pydub",
+        "stars": "7536"
+    },
+    {
+        "index": "45",
+        "rank": "69",
+        "repo_name": "PaddleSeg",
+        "stars": "7473"
+    },
+    {
+        "index": "46",
+        "rank": "70",
+        "repo_name": "speech_recognition",
+        "stars": "7446"
+    },
+    {
+        "index": "47",
+        "rank": "71",
+        "repo_name": "docker-stacks",
+        "stars": "7445"
+    },
+    {
+        "index": "48",
+        "rank": "72",
+        "repo_name": "QUANTAXIS",
+        "stars": "7427"
+    },
+    {
+        "index": "49",
+        "rank": "28",
+        "repo_name": "SPADE",
+        "stars": "7426"
+    },
+    {
+        "index": "50",
+        "rank": "73",
+        "repo_name": "universe",
+        "stars": "7405"
+    },
+    {
+        "index": "51",
+        "rank": "74",
+        "repo_name": "ansible-for-devops",
+        "stars": "7390"
+    },
+    {
+        "index": "52",
+        "rank": "75",
+        "repo_name": "U-2-Net",
+        "stars": "7389"
+    },
+    {
+        "index": "53",
+        "rank": "76",
+        "repo_name": "OpenCore-Legacy-Patcher",
+        "stars": "7374"
+    },
+    {
+        "index": "54",
+        "rank": "29",
+        "repo_name": "pytorch-cnn-visualizations",
+        "stars": "7367"
+    },
+    {
+        "index": "55",
+        "rank": "30",
+        "repo_name": "PyMySQL",
+        "stars": "7354"
+    },
+    {
+        "index": "56",
+        "rank": "31",
+        "repo_name": "easytrader",
+        "stars": "7314"
+    },
+    {
+        "index": "57",
+        "rank": "32",
+        "repo_name": "PaLM-rlhf-pytorch",
+        "stars": "7230"
+    },
+    {
+        "index": "58",
+        "rank": "77",
+        "repo_name": "ultisnips",
+        "stars": "7223"
+    },
+    {
+        "index": "59",
+        "rank": "33",
+        "repo_name": "tutorials",
+        "stars": "7222"
+    },
+    {
+        "index": "60",
+        "rank": "78",
+        "repo_name": "xonsh",
+        "stars": "7197"
+    },
+    {
+        "index": "61",
+        "rank": "34",
+        "repo_name": "awesome-honeypots",
+        "stars": "7187"
+    },
+    {
+        "index": "62",
+        "rank": "79",
+        "repo_name": "akshare",
+        "stars": "7118"
+    },
+    {
+        "index": "63",
+        "rank": "80",
+        "repo_name": "GPT2-Chinese",
+        "stars": "7115"
+    },
+    {
+        "index": "64",
+        "rank": "81",
+        "repo_name": "keras-yolo3",
+        "stars": "7111"
+    },
+    {
+        "index": "65",
+        "rank": "82",
+        "repo_name": "conan",
+        "stars": "7108"
+    },
+    {
+        "index": "66",
+        "rank": "35",
+        "repo_name": "auto-sklearn",
+        "stars": "7099"
+    },
+    {
+        "index": "67",
+        "rank": "36",
+        "repo_name": "pygwalker",
+        "stars": "7016"
+    },
+    {
+        "index": "68",
+        "rank": "83",
+        "repo_name": "IF",
+        "stars": "7012"
+    },
+    {
+        "index": "69",
+        "rank": "84",
+        "repo_name": "records",
+        "stars": "6993"
+    },
+    {
+        "index": "70",
+        "rank": "85",
+        "repo_name": "dream-textures",
+        "stars": "6971"
+    },
+    {
+        "index": "71",
+        "rank": "86",
+        "repo_name": "aws-shell",
+        "stars": "6967"
+    },
+    {
+        "index": "72",
+        "rank": "87",
+        "repo_name": "ImageBind",
+        "stars": "6915"
+    },
+    {
+        "index": "73",
+        "rank": "37",
+        "repo_name": "yowsup",
+        "stars": "6910"
+    },
+    {
+        "index": "74",
+        "rank": "38",
+        "repo_name": "EZFN-Lobbybot",
+        "stars": "6884"
+    },
+    {
+        "index": "75",
+        "rank": "39",
+        "repo_name": "hypothesis",
+        "stars": "6852"
+    },
+    {
+        "index": "76",
+        "rank": "88",
+        "repo_name": "ASRT_SpeechRecognition",
+        "stars": "6836"
+    },
+    {
+        "index": "77",
+        "rank": "89",
+        "repo_name": "InfoSpider",
+        "stars": "6780"
+    },
+    {
+        "index": "78",
+        "rank": "90",
+        "repo_name": "OneForAll",
+        "stars": "6764"
+    },
+    {
+        "index": "79",
+        "rank": "91",
+        "repo_name": "PyTorch_Tutorial",
+        "stars": "6751"
+    },
+    {
+        "index": "80",
+        "rank": "40",
+        "repo_name": "hug",
+        "stars": "6731"
+    },
+    {
+        "index": "81",
+        "rank": "92",
+        "repo_name": "deeplake",
+        "stars": "6709"
+    },
+    {
+        "index": "82",
+        "rank": "93",
+        "repo_name": "multi-v2ray",
+        "stars": "6670"
+    },
+    {
+        "index": "83",
+        "rank": "94",
+        "repo_name": "sigma",
+        "stars": "6652"
+    },
+    {
+        "index": "84",
+        "rank": "41",
+        "repo_name": "faust",
+        "stars": "6580"
+    },
+    {
+        "index": "85",
+        "rank": "95",
+        "repo_name": "demucs",
+        "stars": "6537"
+    },
+    {
+        "index": "86",
+        "rank": "96",
+        "repo_name": "Movie_Data_Capture",
+        "stars": "6513"
+    },
+    {
+        "index": "87",
+        "rank": "42",
+        "repo_name": "DeepLearningFlappyBird",
+        "stars": "6467"
+    },
+    {
+        "index": "88",
+        "rank": "97",
+        "repo_name": "cleanlab",
+        "stars": "6398"
+    },
+    {
+        "index": "89",
+        "rank": "98",
+        "repo_name": "maybe",
+        "stars": "6367"
+    },
+    {
+        "index": "90",
+        "rank": "99",
+        "repo_name": "folium",
+        "stars": "6361"
+    },
+    {
+        "index": "91",
+        "rank": "100",
+        "repo_name": "nmt",
+        "stars": "6261"
+    },
+    {
+        "index": "92",
+        "rank": "43",
+        "repo_name": "fuzzDicts",
+        "stars": "6235"
+    },
+    {
+        "index": "93",
+        "rank": "44",
+        "repo_name": "pkuseg-python",
+        "stars": "6210"
+    },
+    {
+        "index": "94",
+        "rank": "45",
+        "repo_name": "nlp-recipes",
+        "stars": "6180"
+    },
+    {
+        "index": "95",
+        "rank": "46",
+        "repo_name": "snownlp",
+        "stars": "6146"
+    },
+    {
+        "index": "96",
+        "rank": "47",
+        "repo_name": "autogluon",
+        "stars": "6123"
+    },
+    {
+        "index": "97",
+        "rank": "48",
+        "repo_name": "ddddocr",
+        "stars": "6087"
+    },
+    {
+        "index": "98",
+        "rank": "49",
+        "repo_name": "deis",
+        "stars": "6070"
+    },
+    {
+        "index": "99",
+        "rank": "50",
+        "repo_name": "tinydb",
+        "stars": "6029"
+    }
+]
