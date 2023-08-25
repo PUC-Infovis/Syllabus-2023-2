@@ -1,0 +1,25 @@
+body {
+    margin: 0 auto;
+    /* Puedes cambiar el color de fondo (background-color) si lo deseas */
+    background-color: #f9d3a7;
+    max-width: 1200px;
+    min-width: 500px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+}
+
+svg, img {
+    border: 1px solid gray;
+}
