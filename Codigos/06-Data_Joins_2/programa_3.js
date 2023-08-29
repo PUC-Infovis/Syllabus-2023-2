@@ -20,21 +20,21 @@ function datajoin(filtrar_datos) {
   }
 
   // Agregar un G para cada dato. Este será nuestro contenedor.
-  // Buscaremos por una clase "grupo" en vez de por un tag
-  const nuestroG = SVG.selectAll(".grupo")
+  // Buscaremos por una clase "casita" en vez de por un tag
+  const nuestroG = SVG.selectAll(".casita")
     .data(datos)
     .join(
       enter => {
-        // Agregar un G con clase "grupo" para cada dato.
+        // Agregar un G con clase "casita" para cada dato.
         // IMPORTANTE: siempre lo agregado al enter debe ser lo buscado
-        // En este caso, buscamos por ".grupo" así que el elemento de
-        // "append" debe tener la clase "grupo"
-        const G = enter.append("g").attr("class", "grupo")
+        // En este caso, buscamos por ".casita" así que el elemento de
+        // "append" debe tener la clase "casita"
+        const CASITA = enter.append("g").attr("class", "casita")
 
         // Agregar rect para mostrar el promedio de nota
         // Le daremos una clase específica porque agregaremos más
         // de un "rect" dentro de nuestro G
-        G.append("rect")
+        CASITA.append("rect")
           .attr("class", "bar")
           .attr("height", 20)
           .attr("x", 0)
@@ -43,7 +43,7 @@ function datajoin(filtrar_datos) {
           .attr("width", d => d.nota_promedio);
 
         // Agregar text para mostrar el nombre de la persona
-        G.append("text")
+        CASITA.append("text")
           .attr("x", 0)
           .attr("y", 0)
           .text(d => d.nombre)
@@ -51,7 +51,7 @@ function datajoin(filtrar_datos) {
         // Agregar rect para la desvicación de las notas
         // Le daremos una clase específica porque agregaremos más
         // de un "rect" dentro de nuestro G
-        G.append("rect")
+        CASITA.append("rect")
           .attr("class", "desv")
           .attr("height", 2)
           .attr("x", d => d.nota_promedio - d.desviacion)
@@ -60,7 +60,7 @@ function datajoin(filtrar_datos) {
           .attr("y", 10)
 
         // Retornamos lo creado a "enter". En este caso "G"
-        return G
+        return CASITA
       },
       update => {
         // Update será lo que buscamos en el "selectAll". En este
@@ -71,7 +71,8 @@ function datajoin(filtrar_datos) {
         // Así que usamos select para buscar el elemento a editar
 
         // Actualizamos la barra
-        update.select(".bar").attr("width", d => d.nota_promedio);
+        update.select(".bar")
+          .attr("width", d => d.nota_promedio);
 
         // Actualizamos el texto
         update.select("text").text(d => d.nombre);
@@ -87,7 +88,7 @@ function datajoin(filtrar_datos) {
       exit => {
         // Opcional: Buscar cada elemento y eliminarlo
         // Spoiler: cuando veamos transiciones será util hacer esto
-        exit.selectAll(".bar").remove()
+        exit.selectAll(".bar").remove();
         exit.selectAll("text").remove()
         exit.selectAll(".desv").remove()
 

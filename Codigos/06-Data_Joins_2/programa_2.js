@@ -17,7 +17,8 @@ function datajoin(datos) {
       .attr("width", d => d * 10)
       .attr("y", (d, i) => i * 40 + 40)
     ,
-    update => update.attr("width", d => d * 10)
+    update => update
+      .attr("width", d => d * 10)
       .attr("x", 110)
       .attr("fill", "red")
     ,
