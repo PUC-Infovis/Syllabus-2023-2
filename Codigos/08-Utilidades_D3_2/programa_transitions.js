@@ -90,12 +90,13 @@ function joinDeDatos(datos) {
     .selectAll("rect")
     .data(datos)
     .join(enter => {
+      // Defino estado inicial de los rectangulos
       const rect = enter
         .append("rect")
         .attr("fill", "orange")
-        .attr("y", HEIGHTVIS)
-        .attr("height", 0)
         .attr("width", escalaX.bandwidth())
+        .attr("height", 0)
+        .attr("y", HEIGHTVIS)
         .attr("x", (d) => escalaX(d.categoria))
 
       return rect
@@ -110,7 +111,7 @@ function joinDeDatos(datos) {
   // Usamos nuestras escalas para actualizar sus posiciones y altura de
   // las barras que ya estaban creadas y las nuevas.
   rectangulos.transition("update")
-    .duration(500)
+    .duration(5000)
     .attr("width", escalaX.bandwidth())
     .attr("height", (d) => escalaAltura(d.frecuencia))
     .attr("x", (d) => escalaX(d.categoria))

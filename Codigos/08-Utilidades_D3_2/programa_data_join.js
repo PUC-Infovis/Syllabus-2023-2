@@ -103,11 +103,11 @@ function joinDeDatos(datos) {
       update => update,
       exit => {
         // AGREGAMOS ANIMACION CUANDO ELIMINAMOS UN DATO
-        exit.transition("remove").duration(500)
+        exit.transition("remove").duration(1000)
           .attr("height", 0)
           .attr("y", HEIGHTVIS)
 
-        exit.transition("adios").delay(500).remove()
+        exit.transition("adios").delay(1000).remove()
         return exit
       }
 

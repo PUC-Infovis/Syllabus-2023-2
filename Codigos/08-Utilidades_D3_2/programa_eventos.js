@@ -124,15 +124,15 @@ function joinDeDatos(datos) {
         }
         return "blue";
       })
-    });
+      // Mismo código de arriba, pero en una línea
+      // rectangulos.attr("fill", data => data.categoria == dato_evento.categoria ? "red" : "blue");
+    })
   // Cuando hacemos click en el SVG
   svg.on("click", (evento, dato_evento) => {
-    console.log(evento)
     const pos = d3.pointer(evento);
     let t = `Posición dentro del SVG(${pos[0]},${pos[1]})`
     t += ` - Posición en el HTML(${evento.pageX},${evento.pageY})`
     parrafo2.text(t)
-
   })
   ////////////////////////////////////////////
   ////        Fin Nuevo Codigo            ////
