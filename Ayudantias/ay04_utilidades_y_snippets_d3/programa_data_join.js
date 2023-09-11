@@ -220,9 +220,9 @@ function cargarVis2(datos) {
           .attr("fill", d => {
             /* Lo siguiente equivale al siguiente código
               if (d.alumbrado == 1){
-                return "DCC"
-              }else if (d.alumbrado == 1){
-                return "FF0"
+                return "#DCC"
+              }else if (d.alumbrado == 2){
+                return "#FF0"
               }else{
                 // No retornamos, por lo que queda sin fill,
                 // es decir, queda con color negro que es el por defecto
