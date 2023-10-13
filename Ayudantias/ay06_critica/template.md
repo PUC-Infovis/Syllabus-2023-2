@@ -12,7 +12,7 @@ https://i.imgur.com/R5D0eF7.jpeg
 ## Principios de diseño
 ### Principios de diseño relacionado con expresividad:
 
-### Principios de diseño relacionado con expresividad:
+### Principios de diseño relacionado con efectividad:
 
 ### Principios de diseño relacionado con HCI:
 
@@ -31,7 +31,7 @@ https://flowingdata.com/2019/03/06/women-men-timeuse/
 ## Principios de diseño
 ### Principios de diseño relacionado con expresividad:
 
-### Principios de diseño relacionado con expresividad:
+### Principios de diseño relacionado con efectividad:
 
 ### Principios de diseño relacionado con HCI:
 
@@ -50,7 +50,7 @@ fuente: https://www.ine.gob.cl/docs/default-source/encuesta-anual-de-electricida
 ## Principios de diseño
 ### Principios de diseño relacionado con expresividad:
 
-### Principios de diseño relacionado con expresividad:
+### Principios de diseño relacionado con efectividad:
 
 ### Principios de diseño relacionado con HCI:
 
