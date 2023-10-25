@@ -118,6 +118,11 @@ const brushed = (evento) => {
 
   // Seleccion nos dice la posición del cuadro del brush
   console.log(seleccion)
+  // ES una matriz de la forma
+  // [
+  //  [esquina_superior_izquierda_X, esquina_superior_izquierda_Y],
+  //  [esquina_inferior_derecha_X, esquina_inferior_derecha_Y],
+  // ]
 
   const xMin = escalaX.invert(seleccion[0][0]);
   const yMax = escalaY.invert(seleccion[0][1]);
@@ -125,17 +130,20 @@ const brushed = (evento) => {
   const xMax = escalaX.invert(seleccion[1][0]);
   const yMin = escalaY.invert(seleccion[1][1]);
 
+  console.log([[xMin, yMin], [xMax, yMax]])
+
 
   const filtro = (d) =>
     xMin <= d.x && d.x <= xMax && yMin <= d.y && d.y <= yMax;
 
   puntos
     .attr("fill", (d) => (filtro(d) ? "orange" : "gray"))
-    .attr("opacity", (d) => (filtro(d) ? 1 : 0.2));
+    .attr("opacity", (d) => (filtro(d) ? 1 : 0.2))
+    .attr("r", (d) => (filtro(d) ? 10 : 3));
 
   // Extra. Obtenemos los datos filtrados e indicamos cuantos son
   let filtrados = datos.filter(filtro);
-  texto.text(`Se han seleccinado ${filtrados.length} datos`);
+  texto.text(`Se han seleccionado ${filtrados.length} datos`);
 };
 
 // Crear nuestro objeto brush
@@ -167,6 +175,7 @@ brush.filter((event) => {
     button: buttonEvent,
     type: typeEvent,
   });
+
   return (
     !event.ctrlKey &&
     !event.button &&
