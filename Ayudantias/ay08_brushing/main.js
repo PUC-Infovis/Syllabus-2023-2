@@ -89,8 +89,7 @@ const contenedorTorta = SVG3
 // Definimos nuestro scatterplot
 
 function scatterPlot(data) {
-    console.log(data.filter(d => d.budget >= 0));
-    console.log(new Set(data.map(d => d.budget)))
+    console.log(data);
 
     // Calculamos los mínimos y máximos, además de fijar las escalas
     // Multiplicamos el mínimo por 0.9 para tener un poco de 
